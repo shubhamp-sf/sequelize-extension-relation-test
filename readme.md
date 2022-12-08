@@ -5,3 +5,14 @@
 ```json
   { "include": ["todoList"] }
 ```
+- [x] where condition in related model
+```json
+{
+  "include": [{
+      "relation": "todoList",
+      "scope": {
+        "where": { "color": "black" }
+      }
+  }]
+}
+```
