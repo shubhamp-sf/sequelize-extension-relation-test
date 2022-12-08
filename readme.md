@@ -16,3 +16,7 @@
   }]
 }
 ```
+
+
+---
+https://github.com/sourcefuse/loopback4-sequelize
